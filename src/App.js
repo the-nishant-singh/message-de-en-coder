@@ -3,7 +3,7 @@ import { useState } from "react";
 import * as jwt from "jsonwebtoken";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import logo from "../public/logo.jpg";
+import logo from "./logo.jpg";
 const secret = process.env.REACT_APP_JWT_SECRET;
 
 export default function App() {
